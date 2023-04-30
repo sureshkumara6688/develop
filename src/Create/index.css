@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    border: 5px solid #325a99;
+
+}
+
+h1 {
+    text-align: center;
+    background: #325a99;
+    margin: 0;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.left {
+    width: 30%;
+    float: left;
+    border: 2px solid;
+    height: 417px;
+}
+
+.btn {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: light black;
+    border: 2px solid;
+}
+
+
+.formsubmit{
+    margin: 0 auto;
+    height: 220px;
+    width: 300px;
+    border: 1px solid ;
+    margin-left: 174px;
+}
+.formdata{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.formdata label{
+    margin: 15px;
+}
+.formdatax{
+    position: absolute;
+   
+}
+.formdatax label{
+    position: relative;
+    left: 42px;
+    top: 0px;
+}
+.checkactive input {
+    margin: 15px;
+}
+.checkactive{
+text-align: start;
+position: relative;
+left: 108px;
+top: 0;
+}
